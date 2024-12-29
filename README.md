@@ -1,0 +1,2 @@
+# zedSettings
+Мой конфиг zed
