@@ -1,0 +1,81 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "project_panel": {
+    "dock": "left",
+    "file_icons": true,
+    "folder_icons": true,
+    "git_status": true,
+    "indent_size": 25
+  },
+  "assistant": {
+    "dock": "left",
+    "version": "2",
+    "enabled": false
+  },
+  "assistant_v2": {
+    "enabled": false
+  },
+  "chat_panel": {
+    "dock": "left",
+    "button": false
+  },
+  "notification_panel": {
+    "dock": "left",
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "features": {
+    "inline_completion_provider": "none",
+    "copilot": false
+  },
+
+  "languages": {
+    "C": {
+      "show_inline_completions": false
+    },
+    "Python": {
+      "language_servers": ["pyright", "ruff"]
+    }
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_features": {
+    "calt": false
+  },
+  "font_family": "JetBrains Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "font_size": 15,
+  "telemetry": {
+    "metrics": false
+  },
+  "theme": "One Dark",
+  "vim_mode": false,
+  "autosave": "off",
+  "use_autoclose": false,
+  "hour_format": "hour24",
+  "preferred_line_length": 99,
+  "format_on_save": "off",
+
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "pyright.disableOrganizeImports": true,
+        "python.analysis": {
+          "autoImportCompletions": false,
+          "typeCheckingMode": "standard",
+          "useLibraryCodeForTypes": false
+        }
+      }
+    }
+  }
+}
